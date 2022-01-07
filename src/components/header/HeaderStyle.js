@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const MainHeader = styled.h2`
+  color: #393e46;
   margin-top: 1rem;
   font-size: 3rem;
 `;
@@ -36,17 +37,17 @@ export const FoodInput = styled.input`
 
 export const Button = styled.button`
   background-color: #e1f1dd;
-  padding: 5px;
+  padding: 2px;
   outline: none;
   height: 3rem;
   border: none;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   &:hover {
     background-color: #00adb5;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     border: 1px solid white;
   }
 `;
