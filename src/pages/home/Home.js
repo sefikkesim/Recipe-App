@@ -20,7 +20,6 @@ const Home = () => {
     if (query) {
       const result = await axios.get(url);
       setRecipes(result.data.hits);
-      console.log(recipes);
       setQuery("");
       
     }
