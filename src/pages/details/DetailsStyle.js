@@ -67,3 +67,20 @@ export const OtherPart = styled.div`
   font-size: 1.8rem;
   margin: 2rem;
 `;
+export const Button = styled.button`
+  
+  width: 200px;
+  background-color: #e1f1dd;
+  padding: 2px;
+  outline: none;
+  height: 3rem;
+  border: none;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  &:hover {
+    background-color: #00adb5;
+    transition: all 0.2s ease-in;
+    border: 1px solid white;
+  }`

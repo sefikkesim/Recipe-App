@@ -7,9 +7,12 @@ import {
   OtherPart,
   ImgContainer,
   IngContainer,
+  Button,
 } from "./DetailsStyle";
+import {useNavigate} from "react-router-dom"
 
 const Details = () => {
+  const navigate = useNavigate()
 
     const location = useLocation()
     const recipe = (location.state.recipe);
@@ -19,6 +22,7 @@ const Details = () => {
           <h1>{recipe.label}</h1>
           <img src={dietSvg} alt="" />
         </HeaderContainer>
+        <Button onClick={()=> navigate(-1)} > Back Home</Button>
         <DetailPart>
           <OtherPart>
             <>Nutrients</>
